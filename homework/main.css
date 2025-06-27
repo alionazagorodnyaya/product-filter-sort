@@ -1,0 +1,27 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	max-width: 50%;
+	margin: 10px;
+	padding: 10px;
+}
+.checkbox {
+	display: flex;
+}
+.cards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1400px;
+}
+.card > img {
+	width: 300px;
+}
+.card {
+	border: 1px solid rgb(189, 177, 177);
+	border-radius: 8px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	background-color: bisque;
+}
